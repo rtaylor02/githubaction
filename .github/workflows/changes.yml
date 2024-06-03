@@ -35,9 +35,9 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: ./hello.sh
+      # Runs a shell script
+      - name: Run a shell script
+        run: sh ../../hello.sh
 
 
         
